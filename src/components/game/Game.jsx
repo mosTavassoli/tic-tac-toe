@@ -74,7 +74,7 @@ export const Game = () => {
         setMessage(`TURN: ${nextPlayer}`);
       }
     },
-    [isPlayer]
+    [isPlayer, board]
   );
 
   return (
