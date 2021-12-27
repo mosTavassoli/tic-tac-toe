@@ -8,6 +8,8 @@ export const WinMessageContainer = styled.div`
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  color: ${(props) => (props.whoWin === "X" ? "red" : "green")};
   p {
     font-size: 5rem;
   }

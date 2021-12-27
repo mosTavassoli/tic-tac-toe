@@ -9,13 +9,22 @@ export const RefreshBtnContainer = styled.a`
   padding: 0.5rem;
   transition: all 0.2s ease;
   background-color: orange;
+  border-radius: 0.2rem;
 
   p {
     text-transform: uppercase;
   }
 
   &:hover {
-    color: red;
-    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(255, 204, 204);
+    transform: translateY(-3px);
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+    }
+  }
+  &:active {
+    transform: translateY(-1px);
+    /* box-shadow: 0 5px 10px rgba(87, 235, 139); */
+    /* color: green; */
   }
 `;

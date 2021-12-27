@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-// export const BoardStyledContainer = styled.div`
-//   width: 1800px;
-// `;
-
 export const BoardStyle = styled.div`
   min-width: 15rem;
   height: 15rem;
